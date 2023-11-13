@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.mainText {
+    font-size: 6rem;
+    padding-left: 0.8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-bottom: 0;
+    margin: 0;
+
+}
+.name {
+    font-size: 8rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding-left: -1rem;
+    align-items: center;
+    margin-bottom: 0
+}
+
+.ninjaImage {
+    padding-left: 73%;
+    margin-top: -35%;
+    max-height: 5em;
+    margin-bottom: 1rem;
+
+}
+
+@media (max-width: 600px) {
+    .mainText {
+        font-size: 3rem;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .name {
+        font-size: 5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    span {
+        display: none;
+    }
+
+    .ninjaImage {
+        padding-left: 0; /* Adjust this value for mobile */
+        margin-top: -35px; /* Adjust this value for mobile */
+    }
+}

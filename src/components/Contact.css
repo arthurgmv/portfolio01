@@ -1,0 +1,38 @@
+/* Contact.css */
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 25px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#contact img {
+    max-width: 80%; /* A imagem não ultrapassará a largura do contêiner pai */
+    height: auto; /* A altura se ajustará automaticamente para manter a proporção original */
+    margin: 15px 0; /* Espaçamento entre o texto e a imagem */
+}
+
+/* Estilo para telas menores que 600 pixels */
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+}
