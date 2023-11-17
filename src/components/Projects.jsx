@@ -27,7 +27,7 @@ export default function Projects(){
                     <h3>Real to Dollar / Dollar to Real Converter</h3>
                     <p>Description:<br/>A web application that converts Brazilian real to US dollars and US dollars to Brazilian real using an API from the Central Bank of Brazil.</p>
                     <p>Technologies used: <strong>PHP, HTML, CSS and JavaScript(ES6) </strong></p>
-                    <p>Click on the image to access the website</p>
+                    <p>Click on the image to access the website</p><br/>
                     <a href="https://conversor-git-3ce4b4-arthur-gabriel-de-menezes-vianas-projects.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={conv} className="p-img" alt="website image" />
                     </a>
