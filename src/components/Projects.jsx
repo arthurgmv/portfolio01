@@ -4,6 +4,7 @@ import drum from "../assets/projects/drum.jpg"
 import dice from "../assets/projects/click.jpg"
 import memory from "../assets/projects/memory.jpg"
 import age from "../assets/projects/age.jpg"
+import conv from "../assets/projects/conversorMoeda.png"
 import "./projects.css"
 export default function Projects(){
     return(
@@ -20,7 +21,18 @@ export default function Projects(){
                     <a href="https://calculadora-gas-alcool.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={gas} className="p-img" alt="website image"/>
                     </a><br/>
-                </div>
+                </div><br/>
+
+                <div className="ConversorMoeda">
+                    <h3>Real to Dollar / Dollar to Real Converter</h3>
+                    <p>Description:<br/>A web application that converts Brazilian real to US dollars and US dollars to Brazilian real using an API from the Central Bank of Brazil.</p>
+                    <p>Technologies used: <strong>PHP, HTML, CSS and JavaScript(ES6) </strong></p>
+                    <p>Click on the image to access the website</p>
+                    <p>OBS: To better visualize, please rotate your mobile device horizontally.</p><br/>
+                    <a href="https://conversor-git-3ce4b4-arthur-gabriel-de-menezes-vianas-projects.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src={conv} className="p-img" alt="website image" />
+                    </a>
+                </div><br/>
 
                 <div className="ralph">
                     <h3>Ralph Game</h3>
