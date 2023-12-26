@@ -5,6 +5,7 @@ import dice from "../assets/projects/click.jpg"
 import memory from "../assets/projects/memory.jpg"
 import age from "../assets/projects/age.jpg"
 import conv from "../assets/projects/conversorMoeda.png"
+import angBlog from "../assets/projects/AngularBlog.jpg"
 import "./projects.css"
 export default function Projects(){
     return(
@@ -31,6 +32,16 @@ export default function Projects(){
                     <a href="https://conversor-git-3ce4b4-arthur-gabriel-de-menezes-vianas-projects.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={conv} className="p-img" alt="website image" />
                     </a>
+                </div><br/>
+
+                <div className="Blog">
+                    <h3>A Blog sampler built with Angular</h3>
+                    <p>Description:<br/>A Blog made with Angular with posts samples.</p>
+                    <p>Technologies used: <strong>Angular, TypeScript and CSS3</strong></p><br/>
+                    <a href="https://blog-com-angular-8s4fncst6.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src={angBlog} className="p-img" alt="website image" />
+                    </a>
+
                 </div><br/>
 
                 <div className="ralph">
