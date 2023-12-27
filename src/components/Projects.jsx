@@ -6,6 +6,7 @@ import memory from "../assets/projects/memory.jpg"
 import age from "../assets/projects/age.jpg"
 import conv from "../assets/projects/conversorMoeda.png"
 import angBlog from "../assets/projects/AngularBlog.jpg"
+import buzz from "../assets/projects/buzzFeedClone.png"
 import "./projects.css"
 export default function Projects(){
     return(
@@ -41,6 +42,13 @@ export default function Projects(){
                     <a href="https://blog-com-angular-8s4fncst6.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={angBlog} className="p-img" alt="website image" />
                     </a>
+
+                <div className="Buzz">
+                    <h3>A BuzzFeed test clone</h3>
+                    <p>Description:<br/>A test where by your answers you may know weather or not you would be a super-hero</p>
+                    <p>Technologies used: <strong>Angular, TypeScript and CSS3</strong></p><br/>
+                    <a href="https://buzzfeedclone-6pzpvieac.vercel.app/" target="_blank" rel="noreferrer"><img src={buzz} className="p-img" alt="website image"/></a>
+                </div>
 
                 </div><br/>
 
