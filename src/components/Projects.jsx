@@ -6,6 +6,8 @@ import memory from "../assets/projects/memory.jpg"
 import age from "../assets/projects/age.jpg"
 import conv from "../assets/projects/conversorMoeda.png"
 import angBlog from "../assets/projects/AngularBlog.jpg"
+import buzz from "../assets/projects/buzzFeedClone.png"
+import travel from "../assets/projects/superTopViagens.jpg"
 import "./projects.css"
 export default function Projects(){
     return(
@@ -22,6 +24,16 @@ export default function Projects(){
                     <a href="https://calculadora-gas-alcool.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={gas} className="p-img" alt="website image"/>
                     </a><br/>
+                </div><br/>
+
+                <div className="AênciadeViagens">
+                    <h3>Travel Agency Web Page</h3>
+                    <p>Description:<br/>A web application of a Travel Agency</p>
+                    <p>Technologies used: <strong>Angular, TypeScript</strong></p>
+                    <p>Click on the image to access the website</p><br/>
+                    <a href="https://super-top-viagens.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src={travel} className="p-img" alt="website image" />
+                    </a>
                 </div><br/>
 
                 <div className="ConversorMoeda">
@@ -41,6 +53,13 @@ export default function Projects(){
                     <a href="https://blog-com-angular-8s4fncst6.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={angBlog} className="p-img" alt="website image" />
                     </a>
+
+                <div className="Buzz">
+                    <h3>A BuzzFeed test clone</h3>
+                    <p>Description:<br/>A test where by your answers you may know weather or not you would be a super-hero</p>
+                    <p>Technologies used: <strong>Angular, TypeScript and CSS3</strong></p><br/>
+                    <a href="https://buzzfeedclone-6pzpvieac.vercel.app/" target="_blank" rel="noreferrer"><img src={buzz} className="p-img" alt="website image"/></a>
+                </div>
 
                 </div><br/>
 
