@@ -6,6 +6,7 @@ import memory from "../assets/projects/memory.jpg"
 import age from "../assets/projects/age.jpg"
 import conv from "../assets/projects/conversorMoeda.png"
 import angBlog from "../assets/projects/AngularBlog.jpg"
+import travel from "../assets/projects/SuperTopViagens.jpg"
 import "./projects.css"
 export default function Projects(){
     return(
@@ -22,6 +23,16 @@ export default function Projects(){
                     <a href="https://calculadora-gas-alcool.vercel.app/" target="_blank" rel="noreferrer">
                         <img src={gas} className="p-img" alt="website image"/>
                     </a><br/>
+                </div><br/>
+
+                <div className="Travel">
+                    <h3>Travel Agency</h3>
+                    <p>Description:<br/>A web application of a Travel Agency</p>
+                    <p>Technologies used: <strong>Angular, TypeScript, CSS3 and Bootstrap </strong></p>
+                    <p>Click on the image to access the website</p><br/>
+                    <a href="https://super-top-viagens.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src={travel} className="p-img" alt="website image" />
+                    </a>
                 </div><br/>
 
                 <div className="ConversorMoeda">
