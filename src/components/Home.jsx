@@ -5,7 +5,7 @@ export default function Home(){
         <div className="mainText">
             <p>Welcome to </p>
             <p className="name">Arthur Gabriel</p>
-            <p>Fullstack Developer <span>Page</span></p><br/>
+            <p>Full Stack Developer <span>Page</span></p><br/>
             <img src={Ninja} alt="Ninja" className="ninjaImage" />
 
         </div>
