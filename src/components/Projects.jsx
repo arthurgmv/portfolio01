@@ -7,6 +7,7 @@ import age from "../assets/projects/age.jpg"
 import conv from "../assets/projects/conversorMoeda.png"
 import angBlog from "../assets/projects/AngularBlog.jpg"
 import travel from "../assets/projects/SuperTopViagens.jpg"
+import shop from "../assets/eCommerceProject03.jpg"
 import "./projects.css"
 export default function Projects(){
     return(
@@ -24,6 +25,18 @@ export default function Projects(){
                         <img src={gas} className="p-img" alt="website image"/>
                     </a><br/>
                 </div><br/>
+
+                <div className="projetinhos">
+                    <h2>Projects</h2><br/><br/>
+                    <div className="gas-alc">
+                        <h3>eCommerce</h3>
+                        <p>Description:<br/>A eCommecer sample made using Angular 17 (standalone components)</p>
+                        <p>Technologies used: <strong>Angular, TypeScript and CSS3 </strong></p>
+                        <p>Click on the image to access the website</p><br/>
+                        <a href="https://e-commerce-games-xi.vercel.app/" target="_blank" rel="noreferrer">
+                            <img src={shop} className="p-img" alt="website image"/>
+                        </a><br/>
+                    </div><br/>
 
                 <div className="Travel">
                     <h3>Travel Agency</h3>
