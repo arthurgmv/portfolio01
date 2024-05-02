@@ -26,8 +26,6 @@ export default function Projects(){
                     </a><br/>
                 </div><br/>
 
-                <div className="projetinhos">
-                    <h2>Projects</h2><br/><br/>
                     <div className="gas-alc">
                         <h3>eCommerce</h3>
                         <p>Description:<br/>A eCommecer sample made using Angular 17 (standalone components)</p>
