@@ -28,7 +28,7 @@ export default function Projects(){
                 </div>
                 <br/>
 
-                <div className="ecommerce">
+                {/* <div className="ecommerce">
                     <h3>eCommerce</h3>
                     <p>Description:<br/>An eCommece sample made using Angular 17 (standalone components)</p>
                     <p>Technologies used: <strong>Angular, TypeScript and CSS3 </strong></p>
@@ -38,6 +38,7 @@ export default function Projects(){
                     </a><br/>
                 </div>
                 <br/>
+                */}
 
                 <div className="psStore">
                     <h3>Playstation Store Clone</h3>
