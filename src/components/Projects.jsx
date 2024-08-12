@@ -10,6 +10,7 @@ import travel from "../assets/projects/SuperTopViagens.jpg";
 import psClone from "../assets/projects/psclone.jpg";
 import lgPage from "../assets/projects/loginsignup.jpg";
 import notes from "../assets/projects/notesApp.jpg";
+import kenway from "../assets/projects/kenwaysstore.jpg";
 import "./projects.css";
 
 export default function Projects() {
@@ -46,6 +47,21 @@ export default function Projects() {
                     <br/>
                 </div>
                 <br/>
+
+                <div className="kenway">
+                    <h3>E-Commerce with Shopping Cart</h3>
+                    <p>Description:<br/>An E-Commerce web application made with reactive
+                        components and working shopping cart</p>
+                    <p>Technologies used: <strong>Angular, TypeScript, and CSS3</strong></p>
+                    <p>Click on the image to access the website</p>
+                    <br/>
+                    <a href="https://e-commerce-games-xi.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src={kenway} className="p-img" alt="E-Commerce website"/>
+                    </a>
+                    <br/>
+                </div>
+                <br/>
+
 
                 <div className="note">
                     <h3>My Note App </h3>
